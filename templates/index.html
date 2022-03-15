@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coronavirus - Landing Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+        <a class="navbar-brand" href="index.html">Project 3</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Visualisations
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="visualisation-1/visualisation-1.html">Covid Map</a>
+                        <a class="dropdown-item" href="visualisation-2/visualisation-2.html">Daily Information</a>
+                        <a class="dropdown-item" href="visualisation-3/visualisation-3.html">Highest Figures</a>
+                        <a class="dropdown-item" href="http://127.0.0.1:5000/">API</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contributors.html">Contributors</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row content">
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <h2 class="text-left">Welcome to our project!</h2>
+            <hr>
+            <img src="Images\Index.jpg" alt="Landing Page Image" class="rounded main-image">
+            <p>The World Health Organisation boasts an extensive dataset containing Coronavirus data from across the world. The aim of this project was to create interactive visualisations with this data at hand.</p>
+            <p>The project itself demonstrates usage of SQL, Flask, HTML & Javascript.</p>
+            <p>On the right hand side of the page, you can navigate to the different visualisations on the site or visit the API used to create the information.</p>
+            <p>Alternatively, you can use the drop down menu above.</p>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+            <h2 class="text-left">Visualisations</h2>
+            <hr>
+            <a href="visualisation-1/visualisation-1.html">
+                <img src="Images/Fig1.png" class="rounded float-left thumbnail" alt="Covid Map" width="500" height="200">
+            </a>
+            <a href="visualisation-2/visualisation-2.html">
+                <img src="Images/Fig2.png" class="rounded float-left thumbnail" alt="Daily Information" width="500" height="200">
+            </a>
+            <a href="visualisation-3/visualisation-3.html">
+                <img src="Images/Fig3.png" class="rounded float-left thumbnail" alt="Highest Figures" width="500" height="200">
+            </a>
+            <a href="http://127.0.0.1:5000/">
+                <img src="Images/Fig4.png" class="rounded float-left thumbnail" alt="API" width="500" height="200">
+            </a>
+        </div>
+    </div>
+</body>
