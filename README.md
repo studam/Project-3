@@ -1,6 +1,6 @@
 # Coronavirus Visualisation Dashboard
 
-## University of Birmingham Data Analytics Bootcamp: Project 3
+Project 3 
 
 The World Health Organisation boasts an extensive dataset containing Coronavirus data from across the world. The aim of this project was to create interactive visualisations with this data at hand.
 
